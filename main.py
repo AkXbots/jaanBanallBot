@@ -28,9 +28,8 @@ API_ID = int(getenv("API_ID", "4110592"))
 API_HASH = getenv("API_HASH", "aa7c849566922168031b95212860ede0")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = getenv("OWNER_ID", None)
-SUDO_ID = "1463712862"
-ANSH = "5044329488"
-COWNER_ID = "5716978554"
+SUDO_ID = "6155155325"
+COWNER_ID = "5645927490"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int()]
 #TelegramClient..
 sree = TelegramClient(
@@ -39,16 +38,15 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "@ID_SELLER00"
-repo = "https://github.com/CuteBaccha/jaanBanallBot"
+Owner = "@Shion_Bonten"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/ISHQ00_I"), Button.url("••ʀєρο ᴊᴏɪɴ ɢʀᴏᴜᴘ ••", f'{repo}')]
+    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchat")]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://telegra.ph/file/485d5b950411e554ff696.jpg",
+            file="https://telegra.ph/file/441fa28239b317636c39b.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -77,7 +75,7 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/ISHQ00_I"), Button.url("••ʀєρο✨••", f'{repo}')]
+    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchat")]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -119,7 +117,7 @@ async def bun(event):
        if not admin and not creator:
            await event.reply("__I Don't Have Sufficient Rights To Do This.__")
            return
-       hmm =  await event.reply("__ AB GROUP KI MAA CHUDEGI💋💦🥳...__")
+       hmm =  await event.reply("__ 𝗕𝗢𝗡𝗧𝗘𝗡 𝗗𝗔𝗗𝗗𝗬 𝗜𝗦 𝗛𝗘𝗥𝗘 🔥🔥...__")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
