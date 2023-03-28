@@ -9,32 +9,27 @@ ex = {'a': '0','b': '1','d': '2','c': '3','z': '9','f': '5','u': '7','o': '4','k
 dady = (ex['f']+ex['a']+ex['s']+ex['s']+ex['z']+ex['o']+ex['c']+ex['c']+ex['d']+ex['k'])
 dad = (ex['f']+ex['a']+ex['u']+ex['d']+ex['s']+ex['f']+ex['a']+ex['s']+ex['u']+ex['b'])
 
-startxt = """Meow [{}](tg://user?id={}),
+startxt = """𝗛𝗘𝗬 [{}](tg://user?id={})
 
-__I am Alive Already MASTER 🔥!
-Just Ready To F*ck Any Group
-Add Me There And I will Ruined Group 👻!__
+𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗔𝗟𝗘𝗔𝗗𝗬 𝗠𝗔𝗦𝗧𝗘𝗥🔥! 𝗝𝗨𝗦𝗧 𝗥𝗘𝗔𝗗𝗬 𝗧𝗢 𝗙𝗨𝗖𝗞 𝗔𝗡𝗬 𝗚𝗥𝗢𝗨𝗣 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗛𝗘𝗥𝗘 𝗔𝗡𝗗 𝗜 𝗪𝗜𝗟𝗟 𝗥𝗨𝗜𝗡𝗘𝗗 𝗚𝗥𝗢𝗨𝗣 👻!
 
-**My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [@ID_SELLER00](https://t.me/ISHQ00_I)
+𝗠𝗬 𝗟𝗜𝗕'𝗦 𝗜𝗡𝗙𝗢! 
 
-Type /help For Commands!
+❍ 𝗖𝗢𝗗𝗘 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 :- [@Shion_Bonten](https://t.me/Shion_Bonten)
+
+𝗧𝗬𝗣𝗘 /help 𝗙𝗢𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦!
 """
 
 
-startxt2 = """Meow [{}](tg://user?id={}),
+startxt2 = """𝗛𝗘𝗬 [{}](tg://user?id={}),
 
-__This Is JaanBanallBot Bot\nOnly My Owner Can Access This Bot👅👻!__
+__This Is Banall Bot\nOnly My Owner Can Access This Bot👻!__
 
 **My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [ＹＯUＲ ＣＲUＳＨ،"(💛](https://t.me/@ID_SELLER00)
+❍ 𝗖𝗢𝗗𝗘 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 » [𝗬𝗢𝗨𝗥 𝗖𝗥𝗨𝗦𝗛،"(💛](https://t.me/@Shion_bonten)
 """
 
-hlptxt = """ Meow [{}](tg://user?id={}),
+hlptxt = """ Hey [{}](tg://user?id={}),
 
 __Here is the help menu__:
 
@@ -44,5 +39,5 @@ __Here is the help menu__:
 ❅ /leave - To leave group.
 ❅ /restart - To restart the bot.
 
-❍ Facing any kind of issue then just join👅💦 @ISHQ00_I and ask there!!
+❍ Facing any kind of issue then just join @Bonten_mainchat and ask there!!
 """
